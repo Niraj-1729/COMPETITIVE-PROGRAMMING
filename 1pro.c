@@ -10,6 +10,7 @@ int main()
     {
         printf("%d ", arr[i]);
     }
+    
     arr[0] = value;
 
     for (i =N; i >= 0; i--)
