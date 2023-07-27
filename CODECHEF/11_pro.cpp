@@ -10,8 +10,7 @@ int main()
         cin >> X, Y;
         if (X + Y > 6)
             cout << "YES\n";
-            cout << "NO\n";
+        cout << "NO\n";
     }
-    int 
     return 0;
 }
