@@ -9,17 +9,19 @@ int main()
     cin >> t;
     while (t--)
     {
+    int c = 0;
         string str;
         cin >> str;
 
         int one = count(str.begin(), str.end(), '1');
         int zero = count(str.begin(), str.end(), '0');
-        cout << one << " " << zero << endl;
-        for (int i = 0; i < t; i++)
+        // cout << one << " " << zero << endl;
+        if (one >= 2)
         {
-            
+            c++;
         }
-        
+         
     }
+    cout<<c;
     return 0;
 }

@@ -8,7 +8,7 @@ int main () {
         string str;
         cin>>str;
         int total_char= str.length();
-        if (total_char>=10)
+        if (total_char>10)
         {
                cout<<str[0]<<total_char-2<<str[total_char-1]<<endl;
         }
